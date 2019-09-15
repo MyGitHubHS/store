@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!-- 起别名 -->
+    <typeAliases>
+        <!-- type放包名.类名-->
+       <package name="domain"/>
+    </typeAliases>
+    <!-- 配置数据源，事务 -->
+    <environments default="test">
+        <environment id="test">
+            <!-- 事务：JDBC/MANAGED-自己管理去 -->
+            <transactionManager type="JDBC"/>
+            <!-- 数据源：POOLED/UNPOOLED/JNDI -->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/store?charsetEncoding=utf8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 映射文件mapper -->
+    <mappers>
+        <!--包名/xml文件名-->
+        <mapper resource="dao/UserMapper.xml"/>
+        <mapper resource="dao/ProductMapper.xml"/>
+        <mapper resource="dao/OrderItemMapper.xml"/>
+        <mapper resource="dao/OrderListMapper.xml"/>
+    </mappers>
+</configuration>

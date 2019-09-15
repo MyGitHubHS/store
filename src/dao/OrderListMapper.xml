@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 包名.接口名-->
+<mapper namespace="dao.OrderListDao">
+
+
+    <resultMap id="product" type="OrderList">
+        <id property="oid" column="oid" />
+        <result property="pid" column="pid"/>
+        <result property="pimage" column="pimage"/>
+        <result property="pname" column="pname"/>
+        <result property="count" column="count"/>
+        <result property="shopPrice" column="shop_price"/>
+        <result property="subtotal" column="subtotal"/>
+
+    </resultMap>
+    <!--根据uid查询信息，封装到OrderList对象里-->
+    <select id="findOrderListByUid" parameterType="string" resultMap="product">
+        SELECT
+        o.oid,p.pid,p.pimage,p.pname,oi.count,p.shop_price,oi.subtotal
+        from orders o,orderitem oi,user u, product p
+        where  u.uid=#{uid} and u.uid=o.uid and o.oid=oi.oid and oi.pid=p.pid
+    </select>
+
+    <!--查询订单项总数-->
+    <select id="getCount" parameterType="string" resultType="int">
+         SELECT
+       count(oi.itemid)
+        from orders o,orderitem oi,user u, product p
+        where  u.uid=#{uid} and u.uid=o.uid and o.oid=oi.oid and oi.pid=p.pid
+    </select>
+
+    <!--分页查询-->
+    <select id="findOrderlistPage" parameterType="string" resultMap="product">
+         SELECT
+        o.oid,p.pid,p.pimage,p.pname,oi.count,p.shop_price,oi.subtotal
+        from orders o,orderitem oi,user u, product p
+        where  u.uid=#{param1} and u.uid=o.uid and o.oid=oi.oid and oi.pid=p.pid
+        limit #{param2},#{param3}
+    </select>
+
+
+</mapper>

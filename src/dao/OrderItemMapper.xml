@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 包名.接口名-->
+<mapper namespace="dao.OrderItemDao">
+    <sql id="OrderItemSql">
+            itemid,
+            count,
+            subtotal,
+            pid,
+            oid
+    </sql>
+    <!--插入一个订单项-->
+    <insert id="addOrderitem" parameterType="Orderitem" >
+        insert into orderitem(<include refid="OrderItemSql"/>) value(#{itemid},#{count},#{subtotal},#{pid},#{oid})
+
+    </insert>
+<!--插入一个订单-->
+    <insert id="addOrder" parameterType="Orders">
+        insert into orders(oid,ordertime,total,state,address,name,telephone,uid) value (#{oid},#{ordertime},#{total},#{state},#{address},#{name},#{telephone},#{uid})
+    </insert>
+
+</mapper>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 包名.接口名-->
+<mapper namespace="dao.UserDao">
+    <sql id="sql">
+            uid,
+            username,
+            password,
+            name,
+            email,
+            telephone,
+            birthday,
+            sex,
+            state,
+            code
+    </sql>
+    <!--查询用户名是否可用-->
+    <select id="findUserByName" parameterType="string" resultType="int">
+        select count(*) from user where username=#{name}
+    </select>
+
+    <!--注册用户-->
+    <insert id="register" parameterType="User" >
+        insert into user(<include refid="sql"/>) value(#{uid},#{username},#{password},#{name},#{email},#{telephone},#{birthday},#{sex},#{state},#{code})
+    </insert>
+    <!--登陆-->
+    <select id="login" parameterType="User" resultType="int">
+        select count(*) from user where username=#{username} and password=#{password} and state=1
+    </select>
+    <!--确认订单查询用户信息-->
+    <select id="getUserByName" parameterType="string" resultType="User">
+        select * from user where username=#{username}
+    </select>
+
+    <!--激活用户-->
+    <update id="active" parameterType="string" >
+        update user set state=1 ,code=null where code=#{code}
+    </update>
+</mapper>
