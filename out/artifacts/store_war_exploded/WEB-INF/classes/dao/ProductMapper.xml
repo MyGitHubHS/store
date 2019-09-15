@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 包名.接口名-->
+<mapper namespace="dao.ProductDao">
+    <sql id="sql">
+        pid ,
+        pname ,
+        marketPrice ,
+        shopPrice ,
+        pimage ,
+        pdate ,
+        isHot ,
+        pdesc ,
+        pflag ,
+        cid
+    </sql>
+    <resultMap id="HotProductList" type="Product">
+        <id property="pid" column="pid"/>
+        <result property="pname" column="pname"/>
+        <result property="marketPrice" column="market_price"/>
+        <result property="shopPrice" column="shop_price"/>
+        <result property="pimage" column="pimage"/>
+        <result property="pdate" column="pdate"/>
+        <result property="isHot" column="is_hot"/>
+        <result property="pdesc" column="pdesc"/>
+        <result property="pflag" column="pflag"/>
+        <result property="cid" column="cid"/>
+    </resultMap>
+    <!--查询热门商品-->
+<select id="findHotProduct" resultMap="HotProductList">
+    select * from product where is_hot=1 limit 0,10
+</select>
+<!--查询分类信息-->
+    <select id="findHead" resultType="Category">
+        select * from category
+    </select>
+
+<!--查询分类商品-->
+    <select id="findProductByCid" parameterType="string" resultMap="HotProductList">
+        select * from product where cid=#{param1} limit #{param2},#{param3}
+    </select>
+
+<!--查询单一商品种类的数量-->
+    <select id="getCountBycid" parameterType="string" resultType="int">
+        select count(*) from product where cid=#{cid}
+    </select>
+
+    <!--查询某一商品详情-->
+    <select id="findProductByPid"  parameterType="string" resultMap="HotProductList">
+        select * from product where pid=#{pid};
+    </select>
+</mapper>
