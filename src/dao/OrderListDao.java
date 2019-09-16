@@ -10,4 +10,6 @@ public interface OrderListDao {
     Integer getCount(String uid);
 
     List<OrderListPage> findOrderlistPage(String uid, Integer beginRows, Integer pageSize);
+    //获取所有符合条件的订单
+    List<OrderList> findOrderListAllByUid(String uid);
 }

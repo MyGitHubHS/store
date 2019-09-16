@@ -122,15 +122,22 @@
 			<div style="margin-right:130px;">
 				<div style="text-align:right;">
 					<em style="color:#ff6600;">
+						<c:if test="${user==null}">
 				登录后确认是否享有优惠&nbsp;&nbsp;
+						</c:if>
 			</em> 赠送积分: <em style="color:#ff6600;" id="totalintegral">${price}</em>&nbsp; 商品金额: <strong style="color:#ff6600;" id="totalmoney">￥${price}元</strong>
 				</div>
 				<div style="text-align:right;margin-top:10px;margin-bottom:10px;">
 					<a href="cartServlet?method=cleanAll" id="clear" class="clear">清空购物车</a>
+					<c:if test="${user==null}">
+						<a href="login.jsp">前去登录</a>
+					</c:if>
+					<c:if test="${user!=null}">
 					<a href="order_info.jsp">
 						<input type="submit" width="100" value="提交订单" name="submit" border="0" style="background: url('./images/register.gif') no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 						height:35px;width:100px;color:white;">
 					</a>
+					</c:if>
 				</div>
 			</div>
 

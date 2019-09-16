@@ -34,9 +34,18 @@ public class OrderListServlet extends BaseServlet {
             orderListPage.setPageNo(Integer.valueOf(pageNo));
         }
         OrderListPage page=orderListService.findOrderListpageByUid(user.getUid(),orderListPage);
-        request.setAttribute("orderListPage",page);
-        /*List<OrderList> orderListList=orderListService.findOrderListByUid(user.getUid());
-        session.setAttribute("orderList",orderListList);*/
+        //我有一个梦想，全部查出存缓存，再取
+      /* if(pageNo==null||pageNo.equals("")){
+           pageNo="1";
+       }
+        List<OrderList> pageOrderListByUid = orderListService.findPageOrderListByUid(user.getUid(), Integer.valueOf(pageNo));
+        request.setAttribute("orderListPage",pageOrderListByUid);
+         List<OrderList> orderListList=orderListService.findOrderListByUid(user.getUid());
+        */
+
+
+
+        session.setAttribute("orderList",page);
         return  "order_list.jsp";
     }
 }

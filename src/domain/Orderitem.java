@@ -1,6 +1,8 @@
 package domain;
 
 
+import java.util.List;
+
 public class Orderitem {
 
   private String itemid;
@@ -8,18 +10,26 @@ public class Orderitem {
   private Double subtotal;
   private String pid;
   private String oid;
+  private Product product;
 
-
-  @Override
-  public String toString() {
-    return "Orderitem{" +
-            "itemid='" + itemid + '\'' +
-            ", count=" + count +
-            ", subtotal=" + subtotal +
-            ", pid='" + pid + '\'' +
-            ", oid='" + oid + '\'' +
-            '}';
+  public Product getProduct() {
+    return product;
   }
+
+  public void setProduct(Product product) {
+    this.product = product;
+  }
+
+  private List<Product> productList;
+
+  public List<Product> getProductList() {
+    return productList;
+  }
+
+  public void setProductList(List<Product> productList) {
+    this.productList = productList;
+  }
+
 
   public String getItemid() {
     return itemid;

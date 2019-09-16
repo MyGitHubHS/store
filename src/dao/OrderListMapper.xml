@@ -22,23 +22,49 @@
         from orders o,orderitem oi,user u, product p
         where  u.uid=#{uid} and u.uid=o.uid and o.oid=oi.oid and oi.pid=p.pid
     </select>
-
-    <!--查询订单项总数-->
+<!--
+    &lt;!&ndash;查询订单项总数&ndash;&gt;
     <select id="getCount" parameterType="string" resultType="int">
          SELECT
        count(oi.itemid)
         from orders o,orderitem oi,user u, product p
         where  u.uid=#{uid} and u.uid=o.uid and o.oid=oi.oid and oi.pid=p.pid
+    </select>-->
+<!--查询订单数-->
+    <select id="getCount" parameterType="string" resultType="int">
+         SELECT
+       count(o.oid)
+        from orders o
+        where  uid=#{uid}
     </select>
 
     <!--分页查询-->
-    <select id="findOrderlistPage" parameterType="string" resultMap="product">
-         SELECT
-        o.oid,p.pid,p.pimage,p.pname,oi.count,p.shop_price,oi.subtotal
-        from orders o,orderitem oi,user u, product p
-        where  u.uid=#{param1} and u.uid=o.uid and o.oid=oi.oid and oi.pid=p.pid
-        limit #{param2},#{param3}
+    <select id="findOrderlistPage" parameterType="string" resultMap="orderList">
+        SELECT o.oid,oi.itemid,oi.count,oi.subtotal,p.pid,p.pimage,p.pname,p.shop_price FROM (SELECT * from orders where uid=#{param1} limit #{param2},#{param3}) o,orderitem oi,product p WHERE o.oid=oi.oid and oi.pid=p.pid
     </select>
 
+    <resultMap id="orderList" type="OrderList">
+        <id property="oid" column="oid"/>
+        <collection property="orderitemList" ofType="Orderitem">
+            <id property="itemid" column="itemid"/>
+            <result property="count" column="count"/>
+            <result property="subtotal" column="subtotal"/>
+            <association property="product" javaType="Product">
+                <id property="pid" column="pid"/>
+                <result property="pname" column="pname"/>
+                <result property="marketPrice" column="market_price"/>
+                <result property="shopPrice" column="shop_price"/>
+                <result property="pimage" column="pimage"/>
+            </association>
+        </collection>
+    </resultMap>
+
+    <!--获取全部订单-->
+    <select id="findOrderListAllByUid" parameterType="string" resultMap="product">
+        SELECT
+        o.oid,p.pid,p.pimage,p.pname,oi.count,oi.itemid, p.shop_price,oi.subtotal
+        from orders o,orderitem oi,user u, product p
+        where  u.uid=#{param1} and u.uid=o.uid and o.oid=oi.oid and oi.pid=p.pid
+    </select>
 
 </mapper>

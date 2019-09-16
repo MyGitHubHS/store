@@ -27,7 +27,7 @@
             </c:if>
 
             <li><a href="cart.jsp">购物车</a></li>
-            <li><a href="orderListServlet?method=fingMyOrder">购物车</a></li>
+            <li><a href="orderListServlet?method=fingMyOrder">我的订单</a></li>
         </ol>
     </div>
 </div>

@@ -8,7 +8,7 @@
 		<script language="javascript" src="${pageContext.request.contextPath}/js/public.js"></script>
 		<script type="text/javascript">
 			function addCategory(){
-				window.location.href = "${pageContext.request.contextPath}/AdminCategoryServlet?method=saveUI";
+				window.location.href = "${pageContext.request.contextPath}/AdminProductServlet?method=saveUI";
 			}
 		</script>
 	</HEAD>

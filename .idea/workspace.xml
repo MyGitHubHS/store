@@ -6,672 +6,68 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20d00740-7ca0-45da-8c29-beb9c98b1782" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/08131a2f-3ad5-4d91-ab00-ffe869bb2ebb.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/OrderItemDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/OrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/OrderListDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/OrderListMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ProductDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/Cart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/OrderList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/OrderListPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/Orderitem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/OrderitemList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/Orders.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/Page.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/service/OrderListService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/service/OrderListServiceImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/service/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/service/OrderServiceImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/service/ProductServiceImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/service/UserServiceImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/sqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/utils/CheckImgServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/utils/JDBCUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/utils/MailUtils$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/utils/MailUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/utils/MyBatisUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/utils/MyDateConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/utils/UUIDUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/web/BaseServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/web/CartServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/web/OrderListServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/web/OrderServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/web/ProductServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/web/UserServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/web/filter/UserFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/cglib-2.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/commons-dbutils-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/commons-io-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/commons-lang-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/ehcache-2.10.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/ezmorph-1.0.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/javassist-3.17.1-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/mail.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/mybatis-3.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/slf4j-api-1.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/slf4j-jdk14-1.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/bottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/category/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/category/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/category/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/left.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/order/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/order/orderItem.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/product/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/product/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/product/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/product/pushDown_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/top.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/user/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/user/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/abc.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/bc.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/bcc.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/beijingnongshang.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/bh.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/bj.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/ccb.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/cib.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/cmb.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/cmbc.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/dy.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/gf.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/guangda.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/hx.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/icbc.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/nanjing.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/ningbo.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/pingan.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/post.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/sfz.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/sh.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/shpd.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/zheshang.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/bank_img/zx.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/css/Style1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/css/dtree.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/css/left.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/059b5245-e3c8-43bf-80fe-700f0e4e68b8-thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/0ff130db-0a1b-4b8d-a918-ed9016317009-thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/4a51167a-89d5-4710-aca2-7c76edc355b8-thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/51afeef5-f6cb-4936-abea-315cfca0edc0-thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/54890cf9-91b0-40bc-9f68-51462e9c43a8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/750a9ce8-8c19-444d-b8cc-f3e7e786ec5d-thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/93b9e55f-cbae-4c3c-b2f7-2636c7369db7-thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/My97DatePicker.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/adidas.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/base64.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/beijirong.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/bigPic13867cc1-935a-4a3a-98f9-edf87ddb1c09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/bigPic372e7faa-3ad0-444d-a89b-a8e9f0d6e929.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/bigPic4ed6edbf-fb3e-49a7-be5e-361b2ce02961.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/bigPic5ab54f67-a479-48fe-a41d-7d34b57036a3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/bigPica5720219-ba48-460a-a084-24d5b314bd03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/bigPica7e5d3dd-5984-4d0f-9851-35cc0987d9b9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/bigPicaa443d05-27b4-4964-958e-c81536f01d04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/bigPicc1e3a29e-17f5-4d9f-a186-b2c5a0b39b88.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/bigPicd0459632-fe4e-4a5d-8373-1a67c9f43ec2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/bigPice7c2e240-4147-4c11-b369-db3765ec3df9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/bigPicee0785e3-68e2-4e23-93ef-68904bc2a3c6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/captcha (2).jhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/captcha.jhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/cart.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/common.css.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/common.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/dadonggua.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/eifini.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/f37ba36a-181b-4161-a88f-f74c9adb485d-thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/f5e39c37-94b2-462e-8e58-8bde3c5f1b8c-thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/footer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/g.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/h.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/hengyuanxiang.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/i.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/index_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/index_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/index_right.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/index_top.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/j.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/jackjones.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/jsbn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/l.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/lining.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/maoren.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/nike.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/product.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/r___________renleipic_01/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/r___________renleipic_01/bigPic139f030b-d68b-41dd-be6d-b94cc568d3c5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/r___________renleipic_01/bigPic19533252-0faa-4e64-8077-6e1908f47739.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/r___________renleipic_01/bigPic1ea8f1c9-8b8e-4262-8ca9-690912434692.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/r___________renleipic_01/bigPic5f3622b8-028a-4e62-a77f-f41a16d715ed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/r___________renleipic_01/footer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/r___________renleipic_01/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/r___________renleipic_01/logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/r___________renleipic_01/logo1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/r___________renleipic_01/product.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/registImg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/regist_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/semir.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/sentubila.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/septwolves.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/sundance.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/vimly.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/image/yishion.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/IconTexto_WebDev_009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/article.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/cart.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/cart1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/common.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/dialog_overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/error.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/finalbutton.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/gif53_029.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/i_del.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/i_edit.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/index.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/info.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/loading_bar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/loading_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/login.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/loginbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/member.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/message.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/mis_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/mis_05a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/mis_05b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/mis_05c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/order.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/password.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/product.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/regist_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/register.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/review.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/shim.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/title2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/top_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/top_100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/base.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/cd.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/empty.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/folder.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/folderopen.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/globe.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/imgfolder.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/join.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/joinbottom.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/line.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/minus.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/minusbottom.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/musicfolder.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/nolines_minus.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/nolines_plus.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/page.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/plus.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/plusbottom.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/question.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/tree/trash.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/img/bartlesvillecf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/img/emancipation.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/img/footer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/img/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/img/header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/img/logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/img/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/img/okwu-athletics.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/img/okwu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/img/title2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/js/jquery-1.11.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/order_info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/order_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/product_info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/product_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/556d64fcNf28f90d0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0010.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0011.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0012.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0013.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0014.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0015.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0016.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0017.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0018.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0019.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0020.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0021.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0022.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0023.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0025.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0026.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0027.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0028.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0029.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0030.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0031.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0032.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0033.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0034.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0035.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0036.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0037.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0038.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0039.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0040.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0041.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0042.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0043.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0044.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0045.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0046.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0047.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0048.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0049.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/c_0050.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs10001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs10002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs10003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs10004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs10005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs10006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs10007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs10008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs10009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs10010.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs20001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs20002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs20003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs20004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs20005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs20006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs20007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs20008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs20009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs20010.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs30001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs30002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs30003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs30004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs30005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs30006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs30007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs30008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs30009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs30010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs40001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs40002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs40003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs40004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs40005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs40006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs40007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs40008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs40009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs40010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs40011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs50001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs50002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs50003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs50004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs50005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs50006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs50007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs50008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs50009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs50010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs60001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs60002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs60003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs60004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs60005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs60006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs60007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs60008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs60009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs60010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs70001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs70002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs70003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs70004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs70005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs70006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs70007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs70008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs70009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/cs70010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/duanxue1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/duanxue2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/duanxue3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/duanxue4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/nvxie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/155210007679548_y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/562d008aN963ce5f2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/5632bdf8N789e6659.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/5632c2eeNbc918af0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/90560009093007_y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/c_0001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/c_0002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/c_0003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/c_0004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/c_0005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/c_0006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/c_0007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/dn1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/dn2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/f001a62f-a49d-4a4d-b56f-2b6908a0002c_g.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/hao/ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/hao/big01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/hao/middle01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/hao/small01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/hao/small02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/hao/small03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/hao/small04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/hao/small05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/hao/small06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/hao/small07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/hao/small08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/hao/small09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/news_left.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/news_right.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/556d64fcNf28f90d0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0010.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0011.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0012.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0013.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0014.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0015.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0016.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0017.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0018.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0019.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0020.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0021.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0022.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0023.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0025.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0026.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0027.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0028.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0029.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0030.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0031.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0032.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0033.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0034.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0035.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0036.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0037.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0038.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0039.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0040.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0041.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0042.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0043.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0044.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0045.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0046.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0047.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0048.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0049.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/c_0050.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs10001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs10002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs10003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs10004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs10005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs10006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs10007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs10008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs10009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs10010.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs20001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs20002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs20003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs20004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs20005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs20006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs20007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs20008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs20009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs20010.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs30001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs30002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs30003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs30004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs30005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs30006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs30007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs30008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs30009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs30010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs40001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs40002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs40003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs40004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs40005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs40006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs40007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs40008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs40009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs40010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs40011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs50001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs50002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs50003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs50004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs50005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs50006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs50007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs50008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs50009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs50010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs60001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs60002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs60003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs60004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs60005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs60006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs60007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs60008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs60009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs60010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs70001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs70002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs70003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs70004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs70005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs70006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs70007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs70008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs70009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/cs70010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/duanxue1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/duanxue2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/duanxue3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/duanxue4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/1/nvxie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/155210007679548_y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/562d008aN963ce5f2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/5632bdf8N789e6659.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/5632c2eeNbc918af0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/90560009093007_y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/c_0001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/c_0002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/c_0003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/c_0004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/c_0005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/c_0006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/c_0007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/dn1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/dn2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/f001a62f-a49d-4a4d-b56f-2b6908a0002c_g.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/hao/ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/hao/big01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/hao/middle01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/hao/small01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/hao/small02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/hao/small03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/hao/small04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/hao/small05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/hao/small06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/hao/small07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/hao/small08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/hao/small09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/news_left.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/products/products/news_right.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/dao/OrderItemDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/dao/OrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/dao/OrderListDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/dao/OrderListMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/dao/ProductDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/dao/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/dao/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/domain/Cart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/domain/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/domain/OrderList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/domain/OrderListPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/domain/Orderitem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/domain/OrderitemList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/domain/Orders.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/domain/Page.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/domain/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/domain/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/domain/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/service/OrderListService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/service/OrderListServiceImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/service/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/service/OrderServiceImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/service/ProductServiceImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/service/UserServiceImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/sqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/utils/CheckImgServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/utils/JDBCUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/utils/MailUtils$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/utils/MailUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/utils/MyBatisUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/utils/MyDateConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/utils/UUIDUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/web/BaseServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/web/CartServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/web/OrderListServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/web/OrderServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/web/ProductServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/web/UserServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/store/web/filter/UserFilter.class" afterDir="false" />
+    <list default="true" id="20d00740-7ca0-45da-8c29-beb9c98b1782" name="Default Changelist" comment="将订单展示按订单项改为按订单，增加后台管理查看商品和添加商品">
+      <change afterPath="$PROJECT_DIR$/src/service/admin/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/admin/ProductServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/admin/AdminProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/dtree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/OrderListDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/OrderListDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/OrderListMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/OrderListMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/OrderList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/OrderList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/OrderListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/OrderListPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/Orderitem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/Orderitem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/domain/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/service/OrderListService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/service/OrderListService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/service/OrderListServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/service/OrderListServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/web/OrderListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/web/OrderListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/web/OrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/web/OrderServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/web/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/web/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/product/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/product/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/product/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/product/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/order_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/order_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/product_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/dao/OrderListDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/OrderListDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/dao/OrderListMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/OrderListMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/dao/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/domain/OrderList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/domain/OrderList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/domain/OrderListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/domain/OrderListPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/domain/Orderitem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/domain/Orderitem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/domain/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/service/OrderListService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/service/OrderListService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/service/OrderListServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/service/OrderListServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/web/OrderListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/web/OrderListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/web/OrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/web/OrderServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/web/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/web/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/OrderListDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/OrderListDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/OrderListMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/OrderListMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/OrderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/OrderList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/OrderListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/OrderListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Orderitem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Orderitem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/OrderListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/OrderListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/OrderListServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/OrderListServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/OrderListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/OrderListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/OrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/OrderServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/product/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/product/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/product/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/product/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/order_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/order_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/product_list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -723,94 +119,101 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/OrderListServiceImp.java">
+        <entry file="file://$PROJECT_DIR$/web/admin/product/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="36" column="35" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="145">
+              <caret line="91" column="57" selection-start-line="91" selection-start-column="57" selection-end-line="91" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/OrderServiceImp.java">
+        <entry file="file://$PROJECT_DIR$/web/admin/product/add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+            <state relative-caret-position="136">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/web/admin/AdminProductServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/admin/product/edit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/domain/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#913#914#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1057#1058#0" expanded="true" />
+                <element signature="e#1093#1094#0" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
+                <element signature="e#1173#1174#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#1247#1248#0" expanded="true" />
+                <element signature="e#1273#1274#0" expanded="true" />
+                <element signature="e#1321#1322#0" expanded="true" />
+                <element signature="e#1357#1358#0" expanded="true" />
+                <element signature="e#1388#1389#0" expanded="true" />
+                <element signature="e#1411#1412#0" expanded="true" />
+                <element signature="e#1453#1454#0" expanded="true" />
+                <element signature="e#1483#1484#0" expanded="true" />
+                <element signature="e#1511#1512#0" expanded="true" />
+                <element signature="e#1533#1534#0" expanded="true" />
+                <element signature="e#1571#1572#0" expanded="true" />
+                <element signature="e#1599#1600#0" expanded="true" />
+                <element signature="e#1627#1628#0" expanded="true" />
+                <element signature="e#1649#1650#0" expanded="true" />
+                <element signature="e#1687#1688#0" expanded="true" />
+                <element signature="e#1715#1716#0" expanded="true" />
+                <element signature="e#1745#1746#0" expanded="true" />
+                <element signature="e#1767#1768#0" expanded="true" />
+                <element signature="e#1807#1808#0" expanded="true" />
+                <element signature="e#1835#1836#0" expanded="true" />
+                <element signature="e#1863#1864#0" expanded="true" />
+                <element signature="e#1885#1886#0" expanded="true" />
+                <element signature="e#1923#1924#0" expanded="true" />
+                <element signature="e#1951#1952#0" expanded="true" />
+                <element signature="e#1979#1980#0" expanded="true" />
+                <element signature="e#1999#2000#0" expanded="true" />
+                <element signature="e#2035#2036#0" expanded="true" />
+                <element signature="e#2059#2060#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/ProductServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/UserServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/domain/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/info.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/UserServiceImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+            <state relative-caret-position="271">
+              <caret line="39" column="35" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -852,21 +255,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/utils/MyBatisUtils.java" />
-        <option value="$PROJECT_DIR$/src/web/ProductServlet.java" />
-        <option value="$PROJECT_DIR$/web/cart.htm" />
-        <option value="$PROJECT_DIR$/src/domain/Carts.java" />
-        <option value="$PROJECT_DIR$/src/web/BaseServlet.java" />
-        <option value="$PROJECT_DIR$/src/domain/Cart.java" />
-        <option value="$PROJECT_DIR$/src/web/CartServlet.java" />
-        <option value="$PROJECT_DIR$/web/order_info.htm" />
-        <option value="$PROJECT_DIR$/web/cart.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/product_list.jsp" />
-        <option value="$PROJECT_DIR$/web/product_info.jsp" />
         <option value="$PROJECT_DIR$/web/order_info.jsp" />
         <option value="$PROJECT_DIR$/src/service/ProductServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/domain/Orderitem.java" />
         <option value="$PROJECT_DIR$/src/dao/OrderDao.java" />
         <option value="$PROJECT_DIR$/src/dao/OrderMapper.xml" />
         <option value="$PROJECT_DIR$/src/service/OrderService.java" />
@@ -879,20 +269,9 @@
         <option value="$PROJECT_DIR$/src/service/OrderList.java" />
         <option value="$PROJECT_DIR$/src/domain/Orders.java" />
         <option value="$PROJECT_DIR$/src/domain/OrderitemList.java" />
-        <option value="$PROJECT_DIR$/src/domain/Product.java" />
         <option value="$PROJECT_DIR$/src/sqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/src/dao/OrderItemMapper.xml" />
         <option value="$PROJECT_DIR$/src/service/OrderListImp.java" />
-        <option value="$PROJECT_DIR$/web/head.jsp" />
-        <option value="$PROJECT_DIR$/src/domain/OrderList.java" />
-        <option value="$PROJECT_DIR$/src/service/OrderListService.java" />
-        <option value="$PROJECT_DIR$/src/dao/OrderListDao.java" />
-        <option value="$PROJECT_DIR$/src/domain/OrderListPage.java" />
-        <option value="$PROJECT_DIR$/src/dao/OrderListMapper.xml" />
-        <option value="$PROJECT_DIR$/src/web/OrderListServlet.java" />
-        <option value="$PROJECT_DIR$/web/order_list.jsp" />
-        <option value="$PROJECT_DIR$/src/service/OrderListServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/web/OrderServlet.java" />
         <option value="$PROJECT_DIR$/src/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/dao/UserMapper.xml" />
@@ -903,6 +282,30 @@
         <option value="$PROJECT_DIR$/src/web/UserServlet.java" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/src/domain/Test.java" />
+        <option value="$PROJECT_DIR$/src/dao/OrderListDao.java" />
+        <option value="$PROJECT_DIR$/src/service/OrderListService.java" />
+        <option value="$PROJECT_DIR$/src/domain/OrderListPage.java" />
+        <option value="$PROJECT_DIR$/src/web/OrderListServlet.java" />
+        <option value="$PROJECT_DIR$/src/service/OrderListServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/domain/Orderitem.java" />
+        <option value="$PROJECT_DIR$/src/domain/OrderList.java" />
+        <option value="$PROJECT_DIR$/src/domain/Product.java" />
+        <option value="$PROJECT_DIR$/web/head.jsp" />
+        <option value="$PROJECT_DIR$/web/order_list.jsp" />
+        <option value="$PROJECT_DIR$/src/web/OrderServlet.java" />
+        <option value="$PROJECT_DIR$/src/dao/OrderListMapper.xml" />
+        <option value="$PROJECT_DIR$/web/cart.jsp" />
+        <option value="$PROJECT_DIR$/web/product_list.jsp" />
+        <option value="$PROJECT_DIR$/src/web/admin/AdminCategoryServlet.java" />
+        <option value="$PROJECT_DIR$/web/admin/left.jsp" />
+        <option value="$PROJECT_DIR$/src/service/admin/ProductServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/src/dao/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/web/admin/product/add.jsp" />
+        <option value="$PROJECT_DIR$/src/service/admin/ProductService.java" />
+        <option value="$PROJECT_DIR$/web/admin/product/list.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/product/edit.jsp" />
+        <option value="$PROJECT_DIR$/src/web/admin/AdminProductServlet.java" />
       </list>
     </option>
   </component>
@@ -935,13 +338,6 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
@@ -954,6 +350,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -965,7 +362,44 @@
             <path>
               <item name="store" type="b2602c69:ProjectViewProjectNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="store_war_exploded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="store" type="b2602c69:ProjectViewProjectNode" />
@@ -976,13 +410,56 @@
             <path>
               <item name="store" type="b2602c69:ProjectViewProjectNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -991,7 +468,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -1001,19 +478,19 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WorkDemo\store\src\dao" />
-      <recent name="E:\WorkDemo\store\src\utils" />
-      <recent name="E:\WorkDemo\store\src" />
-      <recent name="E:\WorkDemo\store\web" />
-      <recent name="E:\WorkDemo\store\web\WEB-INF\lib" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dao" />
+      <recent name="service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="domain" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="dao" />
-      <recent name="service" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WorkDemo\store\web" />
+      <recent name="E:\WorkDemo\store\src\dao" />
+      <recent name="E:\WorkDemo\store\src\utils" />
+      <recent name="E:\WorkDemo\store\src" />
+      <recent name="E:\WorkDemo\store\web\WEB-INF\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1161,12 +638,22 @@
       <workItem from="1568283989524" duration="16767000" />
       <workItem from="1568342408278" duration="35646000" />
       <workItem from="1568436302049" duration="33505000" />
-      <workItem from="1568520818799" duration="9340000" />
+      <workItem from="1568520818799" duration="10717000" />
+      <workItem from="1568553689533" duration="3609000" />
+      <workItem from="1568594840979" duration="38367000" />
     </task>
+    <task id="LOCAL-00001" summary="商城主题完成">
+      <created>1568552183994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568552183994</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179600000" />
+    <option name="totallyTimeSpent" value="222953000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1180,7 +667,42 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4972973" visible="true" weight="0.15733737" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4972973" visible="true" weight="0.16565809" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.5027027" side_tool="true" weight="0.1452345" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32593855" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.45392492" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47098976" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32879046" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.051107325" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.11584327" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32879046" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.57240206" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32764506" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32879046" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32935154" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.1762481" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4972973" visible="true" weight="0.16187595" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1203,42 +725,7 @@
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32879046" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32879046" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="15" visible="true" weight="0.32935154" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.1762481" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4972973" visible="true" weight="0.15506808" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Image Layers" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.5027027" side_tool="true" weight="0.1452345" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3270869" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.07155026" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47189096" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32879046" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.051107325" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.11584327" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32879046" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.57240206" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32879046" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32879046" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32935154" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1278,10 +765,25 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="商城主题完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="商城主题完成" />
+    <MESSAGE value="将订单展示按订单项改为按订单，增加后台管理查看商品和添加商品" />
+    <option name="LAST_COMMIT_MESSAGE" value="将订单展示按订单项改为按订单，增加后台管理查看商品和添加商品" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1297,130 +799,160 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/domain/Carts.java" />
-    <entry file="file://$PROJECT_DIR$/out/production/store/web/CartServlet.class">
+    <entry file="file://$PROJECT_DIR$/src/web/OrderServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="55" column="46" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="46" />
+        <state relative-caret-position="379">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
           <folding>
-            <element signature="e#0#2915#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/store_war_exploded/order_info.jsp">
+    <entry file="file://$PROJECT_DIR$/src/dao/OrderListMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1989" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/product_info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1274">
-          <caret line="91" column="51" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
+        <state relative-caret-position="199">
+          <caret line="42" column="160" selection-start-line="42" selection-start-column="160" selection-end-line="42" selection-end-column="160" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/order_info.jsp">
+    <entry file="file://$PROJECT_DIR$/src/domain/OrderList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-484">
-          <caret line="93" column="63" selection-start-line="93" selection-start-column="63" selection-end-line="93" selection-end-column="63" />
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/OrderListPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/order_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/user/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/category/add.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/category/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/category/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="133" column="27" selection-start-line="133" selection-start-column="27" selection-end-line="133" selection-end-column="27" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5812#5818#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#a#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Cart.java">
+    <entry file="file://$PROJECT_DIR$/web/admin/user/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/left.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/product_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="170">
+          <caret line="76" column="74" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/ehcache-2.10.1.jar!/net/sf/ehcache/store/disk/DiskStorageFactory.class">
+    <entry file="file://$PROJECT_DIR$/web/admin/bottom.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
+        <state relative-caret-position="-28">
+          <caret line="18" column="78" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/ProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="30" column="119" lean-forward="true" selection-start-line="30" selection-start-column="111" selection-end-line="30" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/CartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/OrderListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
           <folding>
-            <element signature="e#0#28214#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/OrderService.java">
+    <entry file="file://$PROJECT_DIR$/src/service/OrderServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="188">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/OrderListServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="953">
+          <caret line="72" column="67" lean-forward="true" selection-start-line="72" selection-start-column="67" selection-end-line="72" selection-end-column="67" />
           <folding>
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="method#setPageNo#0;class#Page#0" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Orders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/OrderItemDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#p#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#376#381#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Orderitem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/mybatis-3.2.2.jar!/org/apache/ibatis/io/ClassLoaderWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
     </entry>
@@ -1431,306 +963,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sqlMapConfig.xml">
+    <entry file="file://$PROJECT_DIR$/src/web/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/store/dao/OrderListMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/OrderitemList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/store/web/OrderListServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#1316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/store/domain/OrderList.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-532" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/OrderList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1368#1369#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/OrderListService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/OrderListDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="38" column="61" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/ProductMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        <state relative-caret-position="128">
+          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/product_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-629">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="126" column="22" lean-forward="true" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/OrderListPage.java">
+    <entry file="file://$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/product/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="29" />
+          <caret line="10" column="115" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="115" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/order_list.jsp">
+    <entry file="file://$PROJECT_DIR$/out/artifacts/store_war_exploded/admin/user/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="80" column="62" selection-start-line="80" selection-start-column="62" selection-end-line="80" selection-end-column="62" />
-        </state>
+        <state relative-caret-position="-459" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/CartServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/service/admin/ProductServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-755">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="139">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/OrderListServlet.java">
+    <entry file="file://$PROJECT_DIR$/web/admin/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-10" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/OrderServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/products/1/duanxue1.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/ProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/556d64fcNf28f90d0.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/store_war_exploded/products/11110162343493261502e1cfeff.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/MailUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="43" column="164" selection-start-line="43" selection-start-column="164" selection-end-line="43" selection-end-column="164" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/store_war_exploded/products/155210007679548_y.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/BaseServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="25" column="55" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="25" selection-end-column="55" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/store_war_exploded/products/90560009093007_y.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/filter/UserFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="52" column="68" lean-forward="true" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1688#1740#0" />
-            <element signature="e#2231#2422#1" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/store_war_exploded/products/5632c2eeNbc918af0.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/OrderListMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/store_war_exploded/products/5632bdf8N789e6659.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/store_war_exploded/products/562d008aN963ce5f2.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="37" column="61" lean-forward="true" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1/nvxie.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/service/OrderListServiceImp.java">
+    <entry file="file://$PROJECT_DIR$/src/service/admin/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/OrderServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/UserServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1739,8 +1050,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/ProductServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="1183" selection-start-line="1183" selection-end-line="1183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/product/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/product/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="91" column="57" selection-start-line="91" selection-start-column="57" selection-end-line="91" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/store_war_exploded/products/1oYYBAFOYMOiIYQYRAALbjaulNdkAABmFwC5_tUAAtul643.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1357#1358#0" expanded="true" />
+            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1715#1716#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#1767#1768#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+            <element signature="e#1835#1836#0" expanded="true" />
+            <element signature="e#1863#1864#0" expanded="true" />
+            <element signature="e#1885#1886#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#1951#1952#0" expanded="true" />
+            <element signature="e#1979#1980#0" expanded="true" />
+            <element signature="e#1999#2000#0" expanded="true" />
+            <element signature="e#2035#2036#0" expanded="true" />
+            <element signature="e#2059#2060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/product/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/admin/AdminProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

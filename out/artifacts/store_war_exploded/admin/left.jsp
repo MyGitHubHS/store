@@ -26,16 +26,16 @@
 		d.add('01',-1,'系统菜单树');
 		
 		d.add('0102','01','分类管理','','','mainFrame');
-		d.add('010201','0102','分类管理','${pageContext.request.contextPath}/AdminCategoryServlet?method=findAll','','mainFrame');
-		d.add('0104','01','商品管理');
-		d.add('010401','0104','商品管理','${pageContext.request.contextPath}/AdminProductServlet?method=findByPage&currPage=1','','mainFrame');
-		d.add('010402','0104','已下架商品管理','${pageContext.request.contextPath}/AdminProductServlet?method=findByPushDown','','mainFrame');
+		d.add('010201','0102','分类管理','${pageContext.request.contextPath}/adminProductServlet?method=findAll','','mainFrame');
+		d.add('0104','01','商品管理');<%----%>
+		d.add('010401','0104','商品管理','${pageContext.request.contextPath}/adminProductServlet?method=findByPage&currPage=1','','mainFrame');
+		d.add('010402','0104','已下架商品管理','${pageContext.request.contextPath}/adminProductServlet?method=findByPushDown','','mainFrame');
 		d.add('0105','01','订单管理');
-		d.add('010501','0105','订单管理','${pageContext.request.contextPath}/AdminOrderServlet?method=findAll','','mainFrame');
-		d.add('010502','0105','未付款的订单','${pageContext.request.contextPath}/AdminOrderServlet?method=findAll&state=1','','mainFrame');
-		d.add('010503','0105','已付款订单','${pageContext.request.contextPath}/AdminOrderServlet?method=findAll&state=2','','mainFrame');
-		d.add('010504','0105','已发货的订单','${pageContext.request.contextPath}/AdminOrderServlet?method=findAll&state=3','','mainFrame');
-		d.add('010505','0105','已完成的订单','${pageContext.request.contextPath}/AdminOrderServlet?method=findAll&state=4','','mainFrame');
+		d.add('010501','0105','订单管理','${pageContext.request.contextPath}/adminOrderServlet?method=findAll','','mainFrame');
+		d.add('010502','0105','未付款的订单','${pageContext.request.contextPath}/adminOrderServlet?method=findAll&state=1','','mainFrame');
+		d.add('010503','0105','已付款订单','${pageContext.request.contextPath}/adminOrderServlet?method=findAll&state=2','','mainFrame');
+		d.add('010504','0105','已发货的订单','${pageContext.request.contextPath}/adminOrderServlet?method=findAll&state=3','','mainFrame');
+		d.add('010505','0105','已完成的订单','${pageContext.request.contextPath}/adminOrderServlet?method=findAll&state=4','','mainFrame');
 		document.write(d);
 		
 	</script>

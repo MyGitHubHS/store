@@ -16,17 +16,18 @@
             var name=$(this).val();
             if (name == ""||name==null){
                 $("#tips").text("用户名不能为空！").css("color","red");
-            }
-            $.ajax({
-                type : "POST",
-                url : "userServlet?method=findUser",
-                data : "name=" + name,
-                success : function(msg) {
-                    if (msg==0) {
-                        $("#tips").text("用户名不可用，换一个呢").css("color","red");
+            }else{
+                $.ajax({
+                    type : "POST",
+                    url : "userServlet?method=findUser",
+                    data : "name=" + name,
+                    success : function(msg) {
+                        if (msg==0) {
+                            $("#tips").text("用户名不正确哦！").css("color","red");
+                        }
                     }
-                }
-            });
+                });
+            }
         })
 <!--验证验证码-->
         $("#checkImg").click(function () {

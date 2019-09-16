@@ -6,7 +6,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>会员登录</title>
+		<title>订单详情</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 		<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 		<script src="js/bootstrap.min.js" type="text/javascript"></script>
@@ -37,7 +37,7 @@
 
 				<div style="margin:0 auto; margin-top:10px;width:950px;">
 					<strong>我的订单</strong>
-					<c:forEach items="${orderListPage.list}" var="order" >
+					<c:forEach items="${orderList.list}" var="order" >
 						<table class="table table-bordered">
 							<tbody>
 								<tr class="success">
@@ -50,25 +50,27 @@
 									<th>数量</th>
 									<th>小计</th>
 								</tr>
+								<c:forEach items="${order.orderitemList}" var="orderitem" >
 								<tr class="active">
 									<td width="60" width="40%">
 										<input type="hidden" name="id" value="22">
-										<img src="${order.pimage}" width="70" height="60">
+										<img src="${orderitem.product.pimage}" width="70" height="60">
 									</td>
 									<td width="30%">
-										<a target="_blank"> ${order.pname}</a>
+										<a target="_blank"> ${orderitem.product.pname}</a>
 									</td>
 									<td width="20%">
-										￥ ${order.shopPrice}
+										￥ ${orderitem.product.shopPrice}
 									</td>
 									<td width="10%">
-											${order.count}
+											${orderitem.count}
 									</td>
 									<td width="15%">
-										<span class="subtotal">￥${order.subtotal}</span>
+										<span class="subtotal">￥${orderitem.subtotal}</span>
 									</td>
 								</tr>
 							</tbody>
+							</c:forEach>
 						</c:forEach>
 					</table>
 				</div>

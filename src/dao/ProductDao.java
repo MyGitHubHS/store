@@ -15,4 +15,10 @@ public interface ProductDao {
     Integer getCountBycid(String cid);
 
     Product findProductByPid(String pid);
+
+    Integer getAllCount();
+
+    List<Product> getProductPage(Integer beginRows, Integer pageSize);
+
+    void addProduct(Product product);
 }

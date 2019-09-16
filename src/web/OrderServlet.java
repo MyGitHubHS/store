@@ -22,7 +22,7 @@ public class OrderServlet extends BaseServlet {
 private UserService userService=new UserServiceImp();
 private OrderService orderService=new OrderServiceImp();
     //提交订单
-    public void submit(HttpServletRequest request, HttpServletResponse response){
+    public String submit(HttpServletRequest request, HttpServletResponse response){
         String address = request.getParameter("address");
         //收货人姓名
         String username = request.getParameter("username");
@@ -60,6 +60,7 @@ private OrderService orderService=new OrderServiceImp();
                      orderService.addOrderitem(num,product,oid);
          }
 
+         return "c:order_list.jsp";
 
     }
 

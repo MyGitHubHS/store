@@ -6,7 +6,7 @@ public class OrderListPage {
     //当前页
     private Integer pageNo;
     //每页显示数量
-    private Integer pageSize=4;
+    private Integer pageSize=2;
     //总页数
     private Integer totalPage;
     //总记录数

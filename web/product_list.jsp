@@ -63,7 +63,7 @@
 		<div style="width:380px;margin:0 auto;margin-top:50px;">
 			<ul class="pagination" style="text-align:center; margin-top:10px;">
 				<c:if test="${pagelist.pageNo>1}">
-				<li ><a href="productServlet?method=findProductByCid&pageNo=${pagelist.pageNo-1}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+				<li ><a href="productServlet?method=findProductByCid&cid=1&pageNo=${pagelist.pageNo-1}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
 				</c:if>
                <%-- <c:if test="${requestScope.page.pageNo}<3">--%>
 				<%--<c:forEach var="i" begin="1" items="${pagelist.list}" step="${pagelist.totalPage}">--%>
@@ -74,7 +74,7 @@
 				<%--</c:forEach>--%>
 				<c:if test="${pagelist.pageNo<pagelist.totalPage}">
 				<li>
-					<a href="productServlet?method=findProductByCid&pageNo=${pagelist.pageNo+1}" aria-label="Next">
+					<a href="productServlet?method=findProductByCid&cid=1&pageNo=${pagelist.pageNo+1}" aria-label="Next">
 						<span aria-hidden="true">&raquo;</span>
 					</a>
 				</li>

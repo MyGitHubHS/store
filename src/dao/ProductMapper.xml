@@ -6,11 +6,11 @@
     <sql id="sql">
         pid ,
         pname ,
-        marketPrice ,
-        shopPrice ,
+        market_price ,
+        shop_price ,
         pimage ,
         pdate ,
-        isHot ,
+        is_hot ,
         pdesc ,
         pflag ,
         cid
@@ -50,4 +50,20 @@
     <select id="findProductByPid"  parameterType="string" resultMap="HotProductList">
         select * from product where pid=#{pid};
     </select>
+
+    <!--查询所有商品个数-->
+    <select id="getAllCount" resultType="int">
+        select count(pid) from product
+    </select>
+
+    <!--后台管理查询所有商品的分页查询-->
+    <select id="getProductPage" parameterType="string" resultMap="HotProductList">
+        select * from product limit #{param1},#{param2}
+    </select>
+
+    <!--后台管理添加商品-->
+    <insert id="addProduct" parameterType="Product">
+        insert into product (<include refid="sql"></include>)
+        values (#{pid},#{pname},#{marketPrice},#{shopPrice},#{pimage},#{pdate},#{isHot},#{pdesc},#{pflag},#{cid});
+    </insert>
 </mapper>

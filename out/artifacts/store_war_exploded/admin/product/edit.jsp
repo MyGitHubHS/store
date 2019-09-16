@@ -1,5 +1,6 @@
+<%@ taglib prefix="C" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <HTML>
 	<HEAD>
 		<meta http-equiv="Content-Language" content="zh-cn">
@@ -9,9 +10,9 @@
 	
 	<body>
 		<!--  -->
-		<form id="userAction_save_do" name="Form1" action="${pageContext.request.contextPath}/AdminProductServlet?method=update" method="post" enctype="multipart/form-data">
-			<input type="hidden" name="pid" value="${model.pid}">
-			<input type="hidden" name="image" value="${model.pimage}">
+		<form id="userAction_save_do" name="Form1" action="${pageContext.request.contextPath}/adminProductServlet?method=updateByPid" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="pid" value="${product.pid}">
+			<input type="hidden" name="pimage" value="${product.pimage}">
 			
 			&nbsp;
 			<table cellSpacing="1" cellPadding="5" width="100%" align="center" bgColor="#eeeeee" style="border: 1px solid #8ba7e3" border="0">
@@ -28,16 +29,16 @@
 						商品名称：
 					</td>
 					<td class="ta_01" bgColor="#ffffff">
-						<input type="text" name="pname" value="${model.pname}" id="userAction_save_do_logonName" class="bg"/>
+						<input type="text" name="pname" value="${product.pname}" id="" class="bg"/>
 					</td>
 					<td width="18%" align="center" bgColor="#f5fafe" class="ta_01">
 						是否热门：
 					</td>
 					<td class="ta_01" bgColor="#ffffff">
 						
-						<select name="is_hot">
-							<option value="1" <c:if test="model.is_hot==1">selected</c:if>>是</option>
-							<option value="0" <c:if test="model.is_hot==0">selected</c:if>>否</option>
+						<select name="isHot">
+							<option value="1" <c:if test="${product.isHot==1}">selected="selected"</c:if>>是</option>
+							<option value="0" <c:if test="${product.isHot==0}">selected="selected"</c:if>>否</option>
 						</select>
 					</td>
 				</tr>
@@ -46,13 +47,14 @@
 						市场价格：
 					</td>
 					<td class="ta_01" bgColor="#ffffff">
-						<input type="text" name="market_price" value="${model.market_price}" id="userAction_save_do_logonName" class="bg"/>
+						<input type="text" name="marketPrice" value="${product.marketPrice}" id="" class="bg"/>
 					</td>
 					<td width="18%" align="center" bgColor="#f5fafe" class="ta_01">
 						商城价格：
 					</td>
+
 					<td class="ta_01" bgColor="#ffffff">
-						<input type="text" name="shop_price" value="${model.shop_price}" id="userAction_save_do_logonName" class="bg"/>
+						<input type="text" name="shopPrice" value="${product.shopPrice}" id="userAction_save_do_logonName" class="bg"/>
 					</td>
 				</tr>
 				<tr>
@@ -69,8 +71,8 @@
 					</td>
 					<td class="ta_01" bgColor="#ffffff" colspan="3">
 						<select name="cid">
-							<c:forEach items="${list}" var="c">
-								<option value="${c.cid }" <c:if test="${c.cid == model.cid}">selected</c:if> >${c.cname}</option>
+							<c:forEach items="${csList}" var="cs">
+							<option value="${cs.cid}"  <c:if test="${cs.cid==product.cid}">selected="selected"</c:if>  >${cs.cname}</option>
 							</c:forEach>
 						</select>
 					</td>
@@ -80,7 +82,7 @@
 						商品描述：
 					</td>
 					<td class="ta_01" bgColor="#ffffff" colspan="3">
-						<textarea name="pdesc" rows="5" cols="30">${model.pdesc }</textarea>
+						<textarea name="pdesc" rows="5" cols="30">${product.pdesc}</textarea>
 					</td>
 				</tr>
 				<tr>
